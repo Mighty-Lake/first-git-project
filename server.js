@@ -10,7 +10,9 @@ exports.start = function(){
         res.send('Hello world by user 2');
     });
     
-    app.listen(3000,function(){
+    app.use('/site', express.static('site'));
+    
+    app.listen(port,function(){
         
         console.log("Server running");
         
