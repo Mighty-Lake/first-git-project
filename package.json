@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "run.js",
-  "dependencies": {
-    "express": "^4.13.4",
-    "save": "^2.1.1"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node run"
+  },
+  "engines": {
+  "node":"4.1.1", 
+    "npm": "2.1.x"
   },
   "repository": {
     "type": "git",
