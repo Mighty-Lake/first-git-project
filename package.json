@@ -7,7 +7,7 @@
     "start": "node run"
   },
   "engines": {
-  "node":"4.1.1", 
+    "node": "4.1.1",
     "npm": "2.1.x"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Mighty-Lake/first-git-project/issues"
   },
-  "homepage": "https://github.com/Mighty-Lake/first-git-project#readme"
+  "homepage": "https://github.com/Mighty-Lake/first-git-project#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
